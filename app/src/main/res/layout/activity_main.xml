@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000"
+        >
+        <com.zhaoemifeng.test.MyRadioButtons
+            android:id="@+id/main_tab_movie"
+            style="@style/MainTabItem"
+            android:drawableTop="@drawable/selector_tab_movie_icon"
+            />
+
+        <com.zhaoemifeng.test.MyRadioButtons
+            android:id="@+id/main_tab_file"
+            style="@style/MainTabItem"
+            android:drawableTop="@drawable/selector_tab_file_icon"
+            />
+
+        <com.zhaoemifeng.test.MyRadioButtons
+            android:id="@+id/main_tab_picture"
+            style="@style/MainTabItem"
+            android:drawableTop="@drawable/selector_tab_picture_icon"
+            />
+
+        <com.zhaoemifeng.test.MyRadioButtons
+            android:id="@+id/main_tab_share"
+            style="@style/MainTabItem"
+            android:drawableTop="@drawable/selector_home_share_icon"
+            />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+              android:gravity="center"
+                tools:context="com.zhaoemifeng.test.activitys.SkipAboutActivity"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="每晚十点更新"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="一篇影评一篇文章"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="每晚入睡前用十分钟读到最美的内容"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="影评独特而温馨 文章兼顾见识与审美                                          也许很长也许很短 但必须值得耐心阅读
+        "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:text="投稿：shigeten@qq.com         合作:551608331(QQ)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:text="监制：半杯咖啡 | 技术：火荼 | 视觉：大绿 晗哥"/>
+
+</LinearLayout>

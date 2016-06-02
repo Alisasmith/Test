@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.zhaoemifeng.test.activitys.FirstActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/start_bg"
+        android:id="@+id/iv_first_bottom"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/welcome_logo"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/iv_first_up"
+        />
+
+
+</FrameLayout>

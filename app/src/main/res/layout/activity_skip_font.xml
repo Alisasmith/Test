@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.zhaoemifeng.test.activitys.SkipFontActivity"
+    >
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/tv_font"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
+        <RadioGroup
+            android:id="@+id/main_tab_bar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <com.zhaoemifeng.test.MyRadioButtons
+                android:id="@+id/font_small"
+                style="@style/MainTabItem"
+                android:drawableTop="@drawable/selector_font_small"
+                android:text="眼神儿好"
+                />
+
+            <com.zhaoemifeng.test.MyRadioButtons
+                android:id="@+id/font_msmall"
+                style="@style/MainTabItem"
+                android:drawableTop="@drawable/selector_font_msmall"
+                android:text="不大不小"
+                />
+
+            <com.zhaoemifeng.test.MyRadioButtons
+                android:id="@+id/font_lsmall"
+                style="@style/MainTabItem"
+                android:drawableTop="@drawable/selector_font_lsmall"
+                android:text="我要大大"
+                />
+        </RadioGroup>
+
+
+</LinearLayout>

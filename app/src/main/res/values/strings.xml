@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_skip_collect">SkipCollectActivity</string>
+    <string name="title_activity_skip_font">SkipFontActivity</string>
+    <string name="title_activity_skip_about">SkipAboutActivity</string>
+    <string name="title_activity_skip_feedback">SkipFeedbackActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+</resources>

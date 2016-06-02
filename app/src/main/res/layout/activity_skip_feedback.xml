@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.zhaoemifeng.test.activitys.SkipFeedbackActivity">
+
+    <TextView
+        android:text="加微信或qq反馈问题，我们会第一时间为您解读"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+    android:text="微信公众号：shigeten"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="80dp"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@mipmap/feedback_weixin"/>
+    <TextView
+        android:text="QQ号：551608331"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/feedback_qq"/>
+
+</LinearLayout>
